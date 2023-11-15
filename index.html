@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="description" content="A Simple Web Page"> -->
+    <title>Currency Convertor App</title>
+   <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="top">
+      <img src="./img/logo.png" alt="">
+      <h3>Currency Converter</h3>
+    </div>
+    <div class="input-groups">
+      <div class="input">
+        <label for="amount" id="">Amount</label><br>
+        <input type="text" id="amount" placeholder="Enter Amount">
+      </div>
+      <div class="dropdowns">
+        <div class="from-country">
+          <select class="Currency">
+            
+          </select>
+        </div>
+        <div class="to-country">
+        <select class="Currency">
+          <option value="USD">USD</option>
+        </select>
+        </div>
+      </div>
+      <button id="btn">Get Exchange Rate</button>
+      <h4 id="result"></h4>
+    </div>
+   
+  </div>
+<script src="app.js"></script>
+</body> 
+</body>
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Poppins&family=Quicksand&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-fluid{
+    background: rgba(255,255,255,0.06);
+    transition: 0.3s ease;
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    position: relative;
+    width: 400px;
+    height: 450px;
+    border: 0;
+    outline: 0;
+    margin: 120px 400px;
+    box-shadow: 0 25px 23px rgba(255, 255, 255, 0.06)
+   
+}
+
+.top{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.top img{
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+h3{
+    padding: 5px;
+}
+.input-groups{
+   margin: 10px;
+   padding: 20px;
+}
+.input input{
+   width: 90%;
+   appearance: none;
+   background: rgba(255,255,255,0.06);
+   backdrop-filter: blur(15px);
+   border: none;
+   padding: 2px;
+   outline: 0;
+   border-bottom: 1px solid black;
+}
+.dropdowns{
+   margin-top: 30px;
+   padding: 2px; 
+   display: flex;
+   justify-content: space-between;
+   
+}
+.from-country > select{
+    padding: 8px;
+    width: 150px;
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+}
+.to-country > select{
+    padding: 8px;
+    width: 150px;
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+}
+#btn{
+    margin: 30px 30px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(234,173,201,1) 3%, rgba(226,171,200,1) 9%, rgba(226,171,200,1) 9%, rgba(220,169,199,1) 13%, rgba(214,167,198,1) 17%, rgba(199,163,196,1) 28%, rgba(100,137,181,1) 100%);
+}
+#btn:hover{
+   cursor: pointer;
+}
+#result{
+    color: rgb(0, 0, 0);
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+    box-shadow: 5px 8px 10px #aaaaaa;
+    
+}
